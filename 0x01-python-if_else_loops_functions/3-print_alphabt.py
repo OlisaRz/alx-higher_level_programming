@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    if chr(i) not in 'eq'
-    print('{}' .format(chr(i)), end='')
+    if (chr(i) != 'q' and chr(i) != 'e'):
+        print('{0:s}' .format(chr(i)), end='')
