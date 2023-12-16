@@ -2,7 +2,6 @@
 
 if __name__ == "__main__":
     """Print all names defined by hidden_4 module."""
-	"""one name per line."""
     import hidden_4
 
     names = dir(hidden_4)
